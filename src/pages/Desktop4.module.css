@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Open Sans&display=swap');
+
+.aquiVaiAparecer {
+
+  position: absolute;
+  top: 180px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 1500px;
+  height: 300px;
+  font-size: 100px;
+ 
+}
+
+.desktop4 {
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 1200px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-Open Sans);
+  background-color: grey;
+}
+
+.temperaturaLabel {
+  position: absolute;
+  top: 220px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 300px;
+  height: 114px;
+  font-size: 100px;
+  
+}
+
+.descricaoLabel {
+  position: absolute;
+  top: 310px; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.temperaturaMinimaLabel {
+  position: absolute;
+  top: 415px;
+  left: 40%; 
+  transform: translate(-50%, -50%); 
+  font-size: 25px;
+  color: black;
+  z-index: 1;
+  
+  
+
+}
+
+.temperaturaMaximaLabel {
+  position: absolute;
+  top: 415px;
+  left: 60%; 
+  transform: translate(-50%, -50%); 
+  font-size: 25px;
+  color: black;
+  z-index: 1;
+ 
+
+}
+
+.umidadeLabel {
+  position: absolute;
+  top: 620px;
+  left: 30%; 
+  transform: translate(-50%, -50%);
+  width: 445px;
+  height: 114px;
+  font-size: 25px;
+  color: black;
+  z-index: 1;
+ 
+}
+
+.pressaoLabel {
+  position: absolute;
+  top: 620px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 445px;
+  height: 114px;
+  font-size: 25px;
+  color: black;
+  z-index: 1;
+
+  
+}
+
+.sensacaoLabel {
+  position: absolute;
+  top: 620px;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 445px;
+  height: 114px;
+  font-size: 25px;
+  color: black;
+  z-index: 1;
+ 
+}
+
+
+
+
+.dia2Label {
+  position: absolute;
+  top: 825px;
+  left: 20%; 
+  transform: translate(-50%, -50%);
+  width: 445px;
+  height: 114px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold; 
+  z-index: 1;
+
+}
+
+.dia3Label {
+  position: absolute;
+  top: 825px;
+  left: 40%; 
+  transform: translate(-50%, -50%);
+  width: 445px;
+  height: 114px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold; 
+  z-index: 1;
+
+}
+
+.dia4Label {
+  position: absolute;
+  top: 825px;
+  left: 60%; 
+  transform: translate(-50%, -50%);
+  width: 445px;
+  height: 114px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  z-index: 1;
+
+}
+
+.dia5Label {
+  position: absolute;
+  top: 825px;
+  left: 80%; 
+  transform: translate(-50%, -50%);
+  width: 445px;
+  height: 114px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold; 
+  z-index: 1;
+
+}
+
+.retangulo1Label {
+  position: absolute;
+  top: 725px;
+  left: 13%;
+  border-radius: 78px;
+  background-color: #d9d9d9;
+  width: 310px;
+  height: 164px;
+  z-index: 1;
+
+}
+
+.retangulo2Label {
+  position: absolute;
+  top: 725px;
+  left: 33%;
+  border-radius: 78px;
+  background-color: #d9d9d9;
+  width: 310px;
+  height: 164px;
+  z-index: 1;
+
+}
+
+.retangulo3Label {
+  position: absolute;
+  top: 725px;
+  left: 53%;
+  border-radius: 78px;
+  background-color: #d9d9d9;
+  width: 310px;
+  height: 164px;
+  z-index: 1;
+
+}
+
+.retangulo4Label {
+  position: absolute;
+  top: 725px;
+  left: 73%;
+  border-radius: 78px;
+  background-color: #d9d9d9;
+  width: 310px;
+  height: 164px;
+  z-index: 1;
+
+}
+
+.retangulo5Label {
+  position: absolute;
+  top: 545px;
+  left: 25%;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  width: 230px;
+  height: 90px;
+  z-index: 1;
+
+}
+
+.retangulo6Label {
+  position: absolute;
+  top: 545px;
+  left: 45%;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  width: 230px;
+  height: 90px;
+  z-index: 1;
+
+}
+
+.retangulo7Label {
+  position: absolute;
+  top: 545px;
+  left: 65%;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  width: 230px;
+  height: 90px;
+  z-index: 1;
+
+}
+
+.retangulo8Label {
+  position: absolute;
+  top: 360px;
+  left: 33%;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  width: 300px;
+  height: 100px;
+  z-index: 1;
+
+}
+
+.retangulo9Label {
+  position: absolute;
+  top: 360px;
+  left: 53%;
+  border-radius: 50px;
+  background-color: #d9d9d9;
+  width: 300px;
+  height: 100px;
+  z-index: 1;
+
+}
+
+
+.weatherCloudNightWindBreezIcon {
+  position: absolute;
+  top: 900px;
+  left:48%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.imageIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.iconesClima {
+  position: absolute;
+  top: 160px;
+  left:35%;
+  object-fit: cover;
+}
+
+.botaoVoltar {
+  cursor: pointer;
+  padding: 0;
+  top: 950px;
+  left: 92%;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  width: 110px;
+  height: 80px;
+  z-index: 1;
+  background-color: #FFE977
+} 
+.botaoVoltar:hover {
+  background-color: #77ffcb
+}
